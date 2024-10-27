@@ -7,7 +7,7 @@ The dataset that we was used contains about 27560 images consisting 13780 parasi
 Pre-processing image data before creating a CNN model is an important step in the machine learning process. It involves cleaning and normalizing the data, extracting relevant features, Pre-processing helps to improve the quality and consistency of the data, which can lead to a more accurate and effective model. In Pre-Processing the image data is converted data NumPy arrays so that the model can understand it and extract the features. Also, as the images vary in size I have resized them to a common size. 
 
 **CNN Architecture:**
-The Model will consist of an input Layer. 3 Convolutional Layers, 3 Pooling Layers, 3 Normalization Layers and 3 Dropout Layers. Then the output of the final layer will be sent to a Flatten Layer where we will pass it to 2 dense layers, normalize it again and use dropout and then finally use a dense layer to find the output . This model will be then compiled and saved and used for deployment. All these layers will have the relevant activation function, padding and the kernel size.
+The Model consists of an input Layer, 3 Convolutional Layers, 3 Pooling Layers, 3 Normalization Layers and 3 Dropout Layers. 
 
 **Accuracy and Saving the model:**
-In the final step we will evaluate the models performance and change the parameters if required and finally save the model so that we can deploy it.
+In the final step, evaluated the models performance and changed the parameters when required and finally saved the model to deploy it.
